@@ -1,0 +1,23 @@
+// vars
+$min_width: 320px;
+$max_width: 1900px;
+$min_font: 16px;
+$max_font: 24px;
+
+// colors
+$color-dark: #262626;
+$color-black: #000;
+$color-primary: #d3ab55;
+$color-secondary: #bbb;
+
+// fonts 
+$font-dancingScript: 'Dancing Script', cursive;
+$font-josefinSans: 'Josefin Sans', sans-serif;
+$font-nunito: 'Nunito',sans-serif;
+
+
+body {
+  background-color: $color-dark;
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+}
+
