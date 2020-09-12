@@ -15,9 +15,13 @@ $font-dancingScript: 'Dancing Script', cursive;
 $font-josefinSans: 'Josefin Sans', sans-serif;
 $font-nunito: 'Nunito',sans-serif;
 
+:root {
+  box-sizing: inherit;
+}
 
 body {
   background-color: $color-dark;
+  box-sizing: border-box;
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
 
