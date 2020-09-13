@@ -182,9 +182,7 @@ body {
   align-items: center; }
   @media (max-width: 900px) {
     .about-us {
-      height: 70vh; } }
-  @media (max-width: 500px) {
-    .about-us {
+      min-height: 70vh;
       height: auto;
       padding: 1rem 0; } }
   .about-us-left {
