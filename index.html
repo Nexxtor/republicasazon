@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans:300,400,600,700|Nunito:300,400,600,700"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <!-- Icons -->
     <script
       src="https://kit.fontawesome.com/584e2cd5cb.js"
@@ -19,6 +19,49 @@
     <title>República Sazón</title>
   </head>
   <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <input type="checkbox" id="checkbox" class="checkbox" hidden/>
+      <div class="hamburger-menu">
+        <label for="checkbox" class="menu">
+          <div class="menu-line menu-line-1"></div>
+          <div class="menu-line menu-line-2"></div>
+          <div class="menu-line menu-line-3"></div>
+        </label>
+      </div>
+      <div class="navbar-navigation">
+        <div class="navbar-navigation-left">
+          <img src="images/nav-img-1.jpeg" alt="" class="left-img left-img-1" />
+          <img src="images/nav-img-2.jpeg" alt="" class="left-img left-img-2" />
+          <img src="images/nav-img-3.jpeg" alt="" class="left-img left-img-3" />
+        </div>
+        <div class="navbar-navigation-right">
+          <ul class="nav-links">
+            <li class="nav-list-item">
+              <a href="index.html" class="nav-list-link">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#aboutus" class="nav-list-link">About Us</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#gallery" class="nav-list-link">Galería</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="reservaciones.html" class="nav-list-link"
+                >Resevaciones</a
+              >
+            </li>
+            <li class="nav-list-item">
+              <a href="servicios.html" class="nav-list-link">Servicios</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="contacto.html" class="nav-list-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End of Navbar-->
     <!-- Header-->
     <header class="header">
       <div class="brand">
@@ -69,7 +112,9 @@
       <div class="cards-wrapper">
         <article class="card">
           <div class="card-overlay">
-            <h1 class="card-overlay-heading">Pechuga deshuesada en salsa de cilantro</h1>
+            <h1 class="card-overlay-heading">
+              Pechuga deshuesada en salsa de cilantro
+            </h1>
             <div class="card-overlay-paragraph">Precio: $3.00</div>
             <button type="button" class="card-overlay-btn">Ordenar</button>
           </div>
@@ -155,7 +200,8 @@
       </div>
       <div class="footer-copyright">
         <p class="footer-copyright-paragraph">
-          <i class="fas fa-copyright"></i> Republica Sazón. Todos los derechos reservados.
+          <i class="fas fa-copyright"></i> Republica Sazón. Todos los derechos
+          reservados.
         </p>
       </div>
     </footer>
