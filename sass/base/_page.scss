@@ -33,8 +33,3 @@ body {
   box-sizing: border-box;
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
-header + section,
-section + section {
-  margin-top: 5rem;
-}
-
