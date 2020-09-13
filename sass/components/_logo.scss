@@ -23,6 +23,8 @@
   color: $color-secondary;
   white-space: nowrap;
   @include textStyle;
+  font-weight: bolder;
+  
 }
 
 .sub-name {
